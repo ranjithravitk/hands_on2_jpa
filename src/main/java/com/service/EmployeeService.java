@@ -1,5 +1,7 @@
 package com.service;
 
+import java.util.List;
+
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +27,12 @@ public class EmployeeService {
       
         emprepo.save(employee);
        
+    }
+    
+    @Transactional
+    public List<Employee> getAllPermanentEmployees(){
+    	List<Employee> result=emprepo.getAllPermanentEmployees();
+    	return result;
     }
 
 	

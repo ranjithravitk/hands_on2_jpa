@@ -1,0 +1,26 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 1;
+ }
+ 
+ .carousel-inner{
+    background-attachment: scroll;
+     background-position: center;
+      background-size: cover;
+       height:300px;
+     width: 100%;}
+    
+      button {
+        background-color: blue;
+    
+    }
+
+    button.pressed {
+        background-color: tomato;
+        
+    }
